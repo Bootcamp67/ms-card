@@ -66,6 +66,12 @@ resilience4j:
       default:
         timeoutDuration: 2s
 
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
 logging:
   level:
     root: INFO
