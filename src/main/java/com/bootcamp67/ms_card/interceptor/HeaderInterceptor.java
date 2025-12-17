@@ -16,7 +16,9 @@ import java.util.List;
 public class HeaderInterceptor implements WebFilter {
   private static final List<String> PUBLIC_ENDPOINTS = Arrays.asList(
       "/actuator/health",
-      "/actuator/info"
+      "/actuator/info",
+      "/v3/api-docs",
+      "/swagger-ui.html"
   );
   private static final String HEADER_USERNAME = "X-Auth-Username";
   private static final String HEADER_CUSTOMER_ID = "X-Auth-Customer-Id";
